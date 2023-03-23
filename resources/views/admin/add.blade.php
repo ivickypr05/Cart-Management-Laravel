@@ -18,7 +18,7 @@
                             <input type="text" class="form-control @error('name') is-invalid @enderror" id="name"
                                 name="product_name">
                             @error('name')
-                                <div class="invalid-feedback">
+                                <div class={{ $message }}>
                                     Name cannot be empty!
                                 </div>
                             @enderror
@@ -28,7 +28,7 @@
                             <input type="unsignedInteger" class="form-control @error('price') is-invalid @enderror"
                                 id="price" name="product_price">
                             @error('price')
-                                <div class="invalid-feedback">
+                                <div class="{{ $message }}">
                                     Price is filled with numbers and do not be given the symbol (,) (.)
                                 </div>
                             @enderror
@@ -38,7 +38,7 @@
                             <input type="text" class="form-control @error('description') is-invalid @enderror"
                                 id="description" name="product_description">
                             @error('description')
-                                <div class="invalid-feedback">
+                                <div class="{{ $message }}">
                                     Description cannot be empty!
                                 </div>
                             @enderror
@@ -48,7 +48,7 @@
                             <input type="text" class="form-control @error('image') is-invalid @enderror" id="image"
                                 name="product_image">
                             @error('image')
-                                <div class="invalid-feedback">
+                                <div class="{{ $message }}">
                                     Image cannot be empty!
                                 </div>
                             @enderror
