@@ -21,11 +21,11 @@ Campus : Universitas Catur Insan Cendekia
 
 <img src="public/assets/image/rcart.png" alt="Screenshot-Results-cart">
 
-## Screenshot Home
+## Screenshot crud Product
 
 <img src="public/assets/image/rproduct.png" alt="Screenshot-Results-product">
 
-## Screenshot Home
+## Screenshot crud Category
 
 <img src="public/assets/image/rcategory.png" alt="Screenshot-Results-category">
 
